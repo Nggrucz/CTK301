@@ -1,0 +1,35 @@
+.h {
+    color: darkred;
+    background-color: honeydew;
+}
+
+.txt {
+    color: rgb(32, 90, 80);
+    background-color: rgb(140, 183, 221);
+}
+
+.span {
+    color: rgb(55, 12, 80);
+  }
+
+#div {
+    background-color:  palevioletred;
+}
+
+a {
+    color: red;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: yellow;
+}
+
+
