@@ -1,0 +1,48 @@
+
+#Sky {
+ background-color: skyblue;
+}
+
+
+.white {
+    color: whitesmoke;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.yback {
+    background-color: yellow;
+}
+
+.dd {
+    color: yellow;
+     background-color: darkgreen;
+}
+
+#ydiv {
+    background-color: yellow;
+}
+
+
+.red {
+    color: red;
+}
+
+.mint {
+    background-color: mediumaquamarine;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    
+}
