@@ -1,0 +1,78 @@
+body {
+    background-image: url(a5bg.png);
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-weight: normal;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 0px;
+    
+}
+
+nav li {
+    display: inline-block;
+    
+    
+}
+
+nav li a {
+    background-color: darkblue;
+    color: white;
+    padding: 13px;
+    margin-right: 10px;
+    width: 125px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+#div {
+    background-color: white;
+    padding: 15px;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    border-bottom: 3px solid black;
+}
+
+.txt {
+    text-align: justify;
+}
+
+p a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.foot {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: darkblue;
+    border: 3px solid white;
+    padding: 40px;
+    margin-top: 20px;
+}
