@@ -68,6 +68,7 @@ width: 67px;
 height: 64px;
 padding-top: 15px;
 padding-left: 15px;
+image-rendering: pixelated;
 }
 
 .star2 {
@@ -76,12 +77,14 @@ width: 67px;
 height: 64px;
 padding-top: 15px;
 padding-right: 15px;
+image-rendering: pixelated;
 }
 
-.pin {
+.pinw {
   float: left;
   margin-left: 205px;
 }
+
 
 
 
@@ -106,7 +109,6 @@ nav {
   background-image: linear-gradient(to bottom, #efd1d1, #eaaaaa, #e88787 );
   width: 256px;
   margin-left: 9em;
-  
 }
 .two {
   grid-column: span 3;
@@ -117,6 +119,8 @@ nav {
   grid-column: span 3;
   background-image: linear-gradient(to bottom, #efd1d1, #eaaaaa, #e88787 );
   width: 256px;
+
+  
 }
 
 
@@ -125,6 +129,15 @@ nav ul {
   padding-left: 1em;
 
   
+  
+}
+
+
+.fix {
+  padding-right: 10px;
+}
+.fix2 {
+  padding-right: 25px;
 }
 
 nav ul li a {
@@ -133,7 +146,12 @@ nav ul li a {
  color: black;
  font-size: 30px;
  
+ 
 }
+
+
+
+
 
 nav:hover {
   background-image: linear-gradient(to top, #efd1d1, #eaaaaa, #e88787 );
@@ -141,6 +159,11 @@ nav:hover {
   border-top: 3px solid black;
  
 }
+
+
+
+
+
 
 .border{
   grid-column: span 8;
@@ -166,6 +189,7 @@ margin-left: 15em;
   height: 100px;
   margin-left: 150px;
   margin-right: 50px;
+  image-rendering: pixelated;
 }
 
 
@@ -181,10 +205,114 @@ margin-left: 15em;
   font-size: 36px;
 }
 
-footer {
+.sg {
   grid-column: span 4;
   margin-left: 350px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+}
+
+/* ------------------------- */
+
+.text {
+  padding-right: 1em;
+
+  
+}
+
+.pina {
+  float: left;
+  image-rendering: pixelated;
+  
+}
+.con {
+  image-rendering: pixelated;
+  position: absolute;
+  height: 40px;
+  
+}
+
+.ma1 {
+grid-column: span 12;
+
+  .ctl {
+    height: 60px;
+    margin-left: 175px;
+    margin-top: 25px;
+    image-rendering: pixelated;
+  }
+
+  .sb {
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
 }
 
 
+
+.ma2 {
+  grid-column: span 12;
+}
+
+.new {
+  position: absolute;
+  image-rendering: pixelated;
+  height: 25px;
+}
+
+
+#gallery {
+  margin: 0 auto; /* center gallery */
+  width: 1200px; /* set width */
+
+  /* Three column grid with 1em gap */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+figure {
+  display: block; /* make figure a block */
+  text-align: center; /* center content */
+  padding: 1em;
+  
+  transition: all 1s; /* hover transition */
+}
+
+/* make the image fit inside the figure block */
+figure img {
+  width: 100%;
+}
+
+/* on hover, transform the contents of figure to be 1.1 times larger */
+
+figure:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  grid-column: span 12;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  .cd {
+    float: none;
+    margin-left: 48em;
+    margin-top: 1em;
+  }
+  .cda {
+    float: none;
+    margin-left: 53em;
+    margin-top: 1em;
+  }
+  .credit {
+    font-family: "Doto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: larger;
+    float: right;
+    margin-right: 1em;
+  }
+  
+}
