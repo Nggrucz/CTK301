@@ -60,6 +60,7 @@ header h1 a{
   padding-right: 350px;
   padding-bottom: 15px;
   
+  
 }
 
 .star1 {
@@ -126,7 +127,8 @@ nav {
 
 nav ul {
   list-style-type: none;
-  padding-left: 1em;
+  padding-left: 0em;
+margin: 0;
 
   
   
@@ -134,7 +136,9 @@ nav ul {
 
 
 .fix {
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
 }
 .fix2 {
   padding-right: 25px;
@@ -145,7 +149,8 @@ nav ul li a {
   text-decoration: none;  
  color: black;
  font-size: 30px;
- 
+ height: 70px;
+ align-content: center;
  
 }
 
@@ -215,15 +220,21 @@ margin-left: 15em;
 .mme {
   grid-column: span 12;
 
+
+
+
+
 .snow {
-  grid-column: span 2;
+  grid-column: span 2; 
   margin: 1em;
   width: 250px;
   float: left;
   margin-left: 40px;
-  
+  transition: all 1s;
 }
-
+.snow:hover {
+  transform: scale(1.6);
+}
 
 .metxt {
   width: 800px;
@@ -241,12 +252,38 @@ margin-left: 15em;
   font-size: 25px;
 }
 
+
+.close {
+
+  width: 320px;
+  float: right;
+  margin-right: 7em;
+  transition: all 1s;
+}
+.close:hover {
+  transform: scale(1.6);
 }
 
+.cane {
 
+  width: 320px;
+  float: right;
+  margin-right: 4em;
+  transition: all 1s;
+}
+.cane:hover {
+  transform: scale(1.6);
+}
 
+.boom {
+  margin-left: 5em;
+  margin-top: 2em;
+  width: 180px;
+  image-rendering: pixelated;
+ 
+}
 
-
+}
 
 
 
@@ -259,6 +296,7 @@ margin-left: 15em;
 }
 .text2 {
   padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 .pina {
@@ -270,8 +308,12 @@ margin-left: 15em;
   image-rendering: pixelated;
   position: absolute;
   height: 40px;
-  
+  transition: all 1s;
 }
+.con:hover {
+  transform: scale(5.0) translateX(-13px)  ;
+}
+
 
 .ma1 {
 grid-column: span 12;
@@ -331,7 +373,7 @@ figure img {
 /* on hover, transform the contents of figure to be 1.1 times larger */
 
 figure:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 footer {
@@ -345,7 +387,7 @@ footer {
   }
   .cda {
     float: none;
-    margin-left: 53em;
+    margin-left: 38em;
     margin-top: 1em;
   }
 
@@ -364,4 +406,13 @@ footer {
     margin-right: 1em;
   }
   
+  .noAI {
+    float: left;
+    margin-left: 2em;
+    width: 200px;
+    image-rendering: pixelated;
+  }
+
+
+
 }
